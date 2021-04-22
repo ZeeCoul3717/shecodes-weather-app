@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+<body>
+  
+  <body>
+    <div class="card">
+      <div class="search">
+        <form id="search-form">
+          <input
+            type="text"
+            id="city-input"
+            class="search-bar"
+            placeholder="Location"
+          />
+          <button type="submit" id="search-button">Search</button>
+        </form>
+      </div>
+      <h1>Date/Time</h1>
+      <h3>...</h3>
+      <div class="weather">
+        <h2 class="city">Weather in ...</h2>
+        <div class="temperature">51ºC</div>
+        <div class="description">Cloudy</div>
+        <div class="humidity">30%</div>
+        <div class="wind">3</div>
+      </div>
+      <table>
+          <tr>
+            <th class="monday">Monday</th>
+            <th class="tuesday">Tuesday</th>
+            <th class="wednesday">Wednesday</th>
+            <th class="thursday">Thursday</th>
+            <th class="friday">Friday</th>
+          </tr>
+        </table>
+        <br />
+        <i class="fas fa-sun"></i>
+        <p class="highest-1">
+          Hº: 81º
+        </p>
+
+        <p class="highest-2">
+          Hº:82º
+        </p>
+        <p class="highest-3">
+          Hº:73º
+        </p>
+        <p class="highest-4">
+          Hº: 66º
+        </p>
+        <p class="highest-5">
+          Hº:66º
+        </p>
+        <p class="lowest-1">
+          Lº:57º
+        </p>
+        <p class="lowest-2">
+          Lº:61º
+        </p>
+        <p class="lowest-3">
+          Lº:48º
+        </p>
+        <p class="lowest-4">
+          Lº:45º
+        </p>
+        <p class="lowest-5">
+          Lº:45º
+        </p>
+        <i class="fas fa-sun" id="sun-2"></i>
+        <i class="fas fa-cloud-sun"></i>
+        <i class="fas fa-cloud-rain"></i>
+        <i class="fas fa-cloud-rain" id="cloudy-2"></i>
+      </div>
+    </div>
+   
+         
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

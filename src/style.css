@@ -1,0 +1,182 @@
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+  text-align: left;
+  text-transform: capitalize;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.card {
+  background: black;
+  color:white;
+  padding: 50px 50px;
+  width: 100%;
+  border-radius: 60px;
+  max-width: 400px;
+  margin: 10px;
+  bottom: 80px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.search-bar {
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  border-radius: 40px;
+  padding: 10px 20px;
+  background: #7c7c7c2b;
+  width: 100%;
+  margin: 300px 0 0 0;
+  }
+  input.search-bar {
+    outline: none;
+    color:white;
+  }
+button {
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  text-align: center;
+  margin: 80px 0 0 0;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+button:hover {
+  background: #7c7c7c6b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+i {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: -400px;
+  bottom: 40px;
+  font-size: 80px;
+  color: rgb(255, 100, 241);
+}
+hr {
+  margin: 0 auto;
+}
+th {
+  position: relative;
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday {
+  font-size: 24px;
+  top: 5px;
+}
+.monday {
+  left: 15px;
+}
+.tuesday {
+  left: 45px;
+}
+.wednesday {
+  left: 70px;
+}
+.thursday {
+  left: 90px;
+}
+.friday {
+  left: 115px;
+}
+.highest-1 {
+  position: relative;
+  top: -15px;
+  left: 28px;
+}
+.highest-2 {
+  position: relative;
+  top: -51px;
+  left: 115px;
+}
+.highest-3 {
+  position: relative;
+  top: -90px;
+  left: 205px;
+}
+.highest-4 {
+  position: relative;
+  top: -125px;
+  left: 290px;
+}
+.highest-5 {
+  position: relative;
+  top: -160px;
+  left: 370px;
+}
+.lowest-1 {
+  position: relative;
+  top: -160px;
+  left: 30px;
+}
+.lowest-2 {
+  position: relative;
+  top: -195px;
+  left: 115px;
+}
+.lowest-3 {
+  position: relative;
+  top: -230px;
+  left: 205px;
+}
+.lowest-4 {
+  position: relative;
+  top: -268px;
+  left: 290px;
+}
+.lowest-5 {
+  position: relative;
+  top: -305px;
+  left: 370px;
+}
+.fa-sun {
+  display: block;
+  position: relative;
+  top: -10px;
+  left: 45px;
+  font-size: 40px;
+}
+#sun-2 {
+  display: block;
+  position: relative;
+  top: -450px;
+  left: 139px;
+  font-size: 40px;
+}
+.fa-cloud-sun {
+  display: block;
+  position: relative;
+  top: -490px;
+  left: 234px;
+  font-size: 40px;
+}
+.fa-cloud-rain {
+  display: block;
+  position: relative;
+  top: -490px;
+  left: 288px;
+  font-size: 40px;
+}
+#cloudy-2 {
+  display: block;
+  position: relative;
+  top: -530px;
+  left: 432px;
+  font-size: 40px;
+}
